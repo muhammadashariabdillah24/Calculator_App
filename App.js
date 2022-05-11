@@ -7,10 +7,12 @@
  */
 
 import React from 'react';
-import Calculator from './src/screen/Calculator/Calculator';
+import TopNavigator from './src/routes/Top/Top';
 
 const App = () => {
-  return <Calculator />;
+  return (
+    <TopNavigator />
+  )
 }
 
 export default App;
